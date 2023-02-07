@@ -1,0 +1,6 @@
+# Retain Windows line-endings in case of checking out on other OS
+* text=auto eol=crlf
+.git/hooks/* text eol=lf
+*.exe -text
+*.zip -text
+*.dll -text
