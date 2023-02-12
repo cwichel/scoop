@@ -27,9 +27,7 @@
         "# Update conda", 
         "(& $dir\\scripts\\conda.exe update conda -y -q)", 
         "# Set auto_activate_base to false",
-        "(& $dir\\scripts\\conda.exe config --system --set auto_activate_base false) | Out-Null", 
-        "# Hook conda with shells", 
-        "(& $dir\\scripts\\conda.exe init --system --all)"
+        "(& $dir\\scripts\\conda.exe config --system --set auto_activate_base false) | Out-Null"
     ],
     "uninstaller": {
         "script": [
