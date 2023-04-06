@@ -2,15 +2,15 @@
     "notes": "This variant only supports the x64 version",
     "description": "Highly customizable media player",
     "homepage": "https://potplayer.daum.net",
-    "version": "230207",
+    "version": "230405",
     "license": {
         "identifier": "Freeware",
         "url": "https://potplayer.daum.net/publicRelation"
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/230207/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "5e0ef56a51be955f7b41d41f9b49499c74bcf1b5d64ea7e43581a77662124429"
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
+            "hash": "e5bffbd4e024415f2212fdcca6213fcb006403eb79f813d337e6441e8a360a64"
         }
     },
     "installer": {
