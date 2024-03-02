@@ -1,6 +1,6 @@
 {
     "notes": [
-        "This variant only supports the x64 version", 
+        "This variant only supports the x64 version",
         "This variant updates the config file to: shell.nss"
     ],
     "description": "A context menu extender that lets you handpick the items to integrate into Windows File Explorer context menu.",
@@ -11,7 +11,7 @@
     "architecture": {
         "64bit": {
             "url": "https://nilesoft.org/download/shell.exe",
-            "hash": "5b29ba86b356fe6246da0f0ca9cb037c20843d4f50e381d77f70b3d54097d1cf"
+            "hash": "98c49e917231cbe67bc51b67d96e1ba2448d1e26e6418d8c0a4792c94eead1a3"
         }
     },
     "pre_install": [
@@ -33,9 +33,7 @@
             "}"
         ]
     },
-    "bin": [
-        "shell.exe"
-    ],
+    "bin": "shell.exe",
     "shortcuts": [
         [
             "shell.exe",
