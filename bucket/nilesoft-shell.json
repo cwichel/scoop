@@ -5,13 +5,13 @@
     ],
     "description": "A context menu extender that lets you handpick the items to integrate into Windows File Explorer context menu.",
     "homepage": "https://nilesoft.org/",
-    "version": "1.7",
+    "version": "1.9.15",
     "license": "MIT",
     "innosetup": true,
     "architecture": {
         "64bit": {
-            "url": "https://nilesoft.org/download/shell.exe",
-            "hash": "98c49e917231cbe67bc51b67d96e1ba2448d1e26e6418d8c0a4792c94eead1a3"
+            "url": "https://nilesoft.org/download/shell/1.9.15/setup.exe",
+            "hash": "46e5afb96a092307725eb4503480ed4c894168884474df01b5a679bdae7e3e5e"
         }
     },
     "pre_install": [
@@ -42,13 +42,14 @@
     ],
     "persist": [
         "shell.log",
-        "shell.nss"
+        "shell.nss",
+        "imports"
     ],
     "checkver": {
-        "url": "https://nilesoft.org/download",
-        "regex": "Shell version ([\\d.]+)</h5>"
+        "url": "https://nilesoft.org/download/changes",
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://nilesoft.org/download/shell.exe"
+        "url": "https://nilesoft.org/download/shell/$version/setup.exe"
     }
 }
