@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe#/cosi.7z",
-            "hash": "be2d4f0af5eb444f452d19f6f3d0e9725a32522b9860e416791507c849a577a6"
+            "hash": "7940404a600ed6af2a19adc615c6c783a622b30ac21ad2227b3e05f190589c5b"
         }
     },
     "installer": {
